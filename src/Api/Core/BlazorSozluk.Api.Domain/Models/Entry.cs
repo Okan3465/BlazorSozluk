@@ -20,6 +20,6 @@ namespace BlazorSozluk.Api.Domain.Models
                                                                               //ilişkiler kurulurken virtual tanımlanmazsa include ederken hata alınır.
                                                                               //Virtual olarak tanımlıyoruz kullanmadığımız zaman da hata almasın
         public virtual ICollection<EntryVote> EntryVotes { get; set; }
-        public virtual ICollection<EntryFavorite> Favorites { get; set; }
+        public virtual ICollection<EntryFavorite> EntryFavorites { get; set; }
     }
 }

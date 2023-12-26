@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj": {}
+    "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj": {
+    "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj",
+        "projectUniqueName": "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj",
         "projectName": "BlazorSozluk.Projections.UserService",
-        "projectPath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj",
-        "packagesPath": "C:\\Users\\Okan Karakoç\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\obj\\",
+        "projectPath": "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\BlazorSozluk.Projections.UserService.csproj",
+        "packagesPath": "C:\\Users\\Okan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.UserService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Okan Karakoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Okan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

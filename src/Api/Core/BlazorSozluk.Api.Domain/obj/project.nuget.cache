@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dk6+vYiJiI60HbwKtWUenKCbg2TQeJUGQP8c+f7xt5SQ3ZIn9qWh3nZvKrfeuncIr6q/mDFlXF/RHf7z3lDUqw==",
+  "dgSpecHash": "8Vq8zViC0OzE9H4tMl/1yXOL6FBeTXbwnIDHdQtVg11BQOwEInsyGKEDKF4A4N9LHZuVeGnVa9ClgJKv+aNzPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Okan\\Documents\\GitHub\\BlazorSozluk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
