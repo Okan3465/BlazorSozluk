@@ -37,7 +37,12 @@ namespace BlazorSozluk.Infrastructure.Persistence.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
+                var connStr = "Data Source=LAPTOP-1109MN6F\\SQLEXPRESS; Initial Catalog=blazorsozluk; Persist Security Info=True; User ID=sa; Password=123";
 
+                optionsBuilder.UseSqlServer(connStr,opt =>
+                {
+                    opt.EnableRetryOnFailure();
+                });
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,0 +1,11 @@
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Application.deps.json
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Application.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Application.pdb
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.AssemblyInfoInputs.cache
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.AssemblyInfo.cs
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\refint\BlazorSozluk.Api.Application.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.pdb
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\ref\BlazorSozluk.Api.Application.dll

@@ -18,7 +18,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.EntityConfigurations.Entry
             builder.ToTable("entry", BlazorSozlukContext.DEFAULT_SCHEMA);
             builder.HasOne(i => i.CreatedBy)
                     .WithMany(i => i.Entries)
-                    .HasForeignKey(i => i.CreatedBy);
+                    .HasForeignKey(i => i.CreatedById);
         }
     }
 }
