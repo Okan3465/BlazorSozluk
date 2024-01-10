@@ -9,3 +9,9 @@ C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozlu
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\refint\BlazorSozluk.Api.Application.dll
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.pdb
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\ref\BlazorSozluk.Api.Application.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Domain.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Common.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Domain.pdb
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Common.pdb
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.csproj.AssemblyReference.cache
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.csproj.CopyComplete

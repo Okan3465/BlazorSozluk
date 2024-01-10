@@ -9,3 +9,4 @@ C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Common\BlazorSozluk.
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Common\BlazorSozluk.Common\obj\Debug\net6.0\refint\BlazorSozluk.Common.dll
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Common\BlazorSozluk.Common\obj\Debug\net6.0\BlazorSozluk.Common.pdb
 C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Common\BlazorSozluk.Common\obj\Debug\net6.0\ref\BlazorSozluk.Common.dll
+C:\Users\Okan Karakoç\Documents\Education\BlazorSozluk\src\Common\BlazorSozluk.Common\obj\Debug\net6.0\BlazorSozluk.Common.csproj.AssemblyReference.cache

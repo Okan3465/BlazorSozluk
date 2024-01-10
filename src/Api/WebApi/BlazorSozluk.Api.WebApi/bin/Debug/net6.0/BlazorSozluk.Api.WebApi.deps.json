@@ -9,10 +9,34 @@
       "BlazorSozluk.Api.WebApi/1.0.0": {
         "dependencies": {
           "BlazorSozluk.Infrastructure.Persistence": "1.0.0",
+          "FluentValidation.AspNetCore": "10.4.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "BlazorSozluk.Api.WebApi.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
         }
       },
       "Bogus/34.0.2": {
@@ -23,7 +47,70 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/10.4.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.9.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.9.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
+          }
+        }
+      },
+      "MediatR/11.1.0": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.1.1",
@@ -141,7 +228,7 @@
       "Microsoft.Extensions.Caching.Memory/6.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
@@ -160,7 +247,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/6.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
@@ -170,11 +257,18 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.1"
@@ -183,7 +277,7 @@
       "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
       "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
@@ -245,7 +339,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.8.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.8.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
@@ -482,6 +576,23 @@
           }
         }
       },
+      "BlazorSozluk.Api.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "BlazorSozluk.Api.Domain": "1.0.0",
+          "FluentValidation": "11.9.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.9.0",
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.IdentityModel.Tokens": "6.8.0",
+          "System.IdentityModel.Tokens.Jwt": "6.8.0"
+        },
+        "runtime": {
+          "BlazorSozluk.Api.Application.dll": {}
+        }
+      },
       "BlazorSozluk.Api.Domain/1.0.0": {
         "dependencies": {
           "BlazorSozluk.Common": "1.0.0"
@@ -491,12 +602,16 @@
         }
       },
       "BlazorSozluk.Common/1.0.0": {
+        "dependencies": {
+          "MediatR": "11.1.0"
+        },
         "runtime": {
           "BlazorSozluk.Common.dll": {}
         }
       },
       "BlazorSozluk.Infrastructure.Persistence/1.0.0": {
         "dependencies": {
+          "BlazorSozluk.Api.Application": "1.0.0",
           "BlazorSozluk.Api.Domain": "1.0.0",
           "Bogus": "34.0.2",
           "Microsoft.EntityFrameworkCore": "6.0.25",
@@ -516,6 +631,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
     "Bogus/34.0.2": {
       "type": "package",
       "serviceable": true,
@@ -523,12 +652,54 @@
       "path": "bogus/34.0.2",
       "hashPath": "bogus.34.0.2.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "FluentValidation/11.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CF/YkJ+ls/Y76ZTZtQ6Ye9rfRM4TcAL6R8c4q8dDRQzS0/6hL+PG/Vssht3ha/wFMoBd0kiosC7JFxbtWBTccg==",
+      "path": "fluentvalidation.aspnetcore/10.4.0",
+      "hashPath": "fluentvalidation.aspnetcore.10.4.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ko++xvN7HUf4WlHJL6bhsybUj/uho8ApOYIdxGjpF8Ot7Fukz6LRfRJ06H0KXhWqmMHWEbu89hJbjKJHtg7b9g==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.9.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512"
+    },
+    "MediatR/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "path": "mediatr/11.1.0",
+      "hashPath": "mediatr.11.1.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "path": "mediatr.contracts/1.0.1",
+      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/2.1.4": {
       "type": "package",
@@ -614,12 +785,12 @@
       "path": "microsoft.extensions.dependencyinjection/6.0.1",
       "hashPath": "microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",
@@ -851,6 +1022,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "BlazorSozluk.Api.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BlazorSozluk.Api.Domain/1.0.0": {
       "type": "project",

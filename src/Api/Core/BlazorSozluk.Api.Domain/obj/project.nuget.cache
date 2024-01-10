@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dk6+vYiJiI60HbwKtWUenKCbg2TQeJUGQP8c+f7xt5SQ3ZIn9qWh3nZvKrfeuncIr6q/mDFlXF/RHf7z3lDUqw==",
+  "dgSpecHash": "LeCTRD8mAkNsCexawsTR5KaoG3bvHlLP7r4oLIkv6vZQEkv8eOwhVlHhH06GF/9tZ4Mk5P50xKttEh1tqAAoig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
