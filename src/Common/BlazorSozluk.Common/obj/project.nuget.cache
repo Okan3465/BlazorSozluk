@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yEEzla7bTHNBBQytVlurAaR2YkfOltI6pz/jtjp3hDAVDwZqoaD0oDatJtcN2JrH9+W+I6c/h/6gAX1mGoiyuQ==",
+  "dgSpecHash": "P5Aa99mE9g17DJ9uMR+KBmxdjb5ceZJoaQfYr+e/BDPIP7uKdnwFsooE0VBlpx6JGAlE+GbchI/GVmHrOOSuLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Common\\BlazorSozluk.Common\\BlazorSozluk.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Okan Karakoç\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Okan Karakoç\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
