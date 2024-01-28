@@ -1,4 +1,4 @@
-﻿using BlazorSozluk.Common.Models.Queries;
+﻿ using BlazorSozluk.Common.Models.Queries;
 using MediatR;
 using System;
 using System.Collections.Generic;
