@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BlazorSozluk.Common.Events.Entry;
+using BlazorSozluk.Common.Events.EntryComment;
 
 namespace BlazorSozluk.Api.Application.Features.Commands.EntryComment.CreateVote
 {

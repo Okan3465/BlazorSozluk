@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4PwYYtmiAvkI47hK+jlHG2U5tDpCuVXcay8bta/AL79qeLz7Ck5rYO4vYmsV7kK9AVdR7ypPn/QLuUtmoegvNg==",
+  "dgSpecHash": "Wrv4XPIUGI2kUzImSNkBQ5n1r/DVqnQ/RqCGyETvu2X4c/NezO/BS1W91jCHBZPtk7T2+R+Prft66WJWt1mf/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Okan Karakoç\\Documents\\Education\\BlazorSozluk\\src\\Api\\Infrastructure\\BlazorSozluk.Infrastructure.Persistence\\BlazorSozluk.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [
